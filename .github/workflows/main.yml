@@ -2,12 +2,16 @@ name: Update Live Links
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Chạy mỗi 30 phút
-  workflow_dispatch: # Cho phép nhấn nút chạy thủ công
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    # ĐOẠN QUAN TRỌNG NHẤT LÀ ĐÂY:
+    permissions:
+      contents: write
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -15,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-python: '3.9'
+          python-version: '3.9'
 
       - name: Install dependencies
         run: pip install requests
