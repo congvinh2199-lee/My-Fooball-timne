@@ -1,0 +1,17 @@
+{
+  "name": "Vinh Lee Auto",
+  "groups": [
+    {
+      "group_name": "Bóng Đá Live",
+      "channels": [
+        {
+          "name": "K+ Sport 1 (Auto)",
+          "link": "https://tftv0gr3uomttgr31hcjt8rzdncbafi1g1hdcgyhdrpjqci1gq3mpcfhgg3dq.100ycdn.com/live/kplus_sport1/playlist.m3u8",
+          "headers": {
+            "Referer": "https://sv2.hoiquan2.live/"
+          }
+        }
+      ]
+    }
+  ]
+}
