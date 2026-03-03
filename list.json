@@ -1,15 +1,12 @@
 {
-  "name": "Vinh Lee Auto",
+  "name": "VINH LIVE - 07:12",
   "groups": [
     {
-      "group_name": "Bóng Đá Live",
+      "group_name": "BÓNG ĐÁ HÔM NAY",
       "channels": [
         {
-          "name": "K+ Sport 1 (Auto)",
-          "link": "https://tftv0gr3uomttgr31hcjt8rzdncbafi1g1hdcgyhdrpjqci1gq3mpcfhgg3dq.100ycdn.com/live/kplus_sport1/playlist.m3u8",
-          "headers": {
-            "Referer": "https://sv2.hoiquan2.live/"
-          }
+          "name": "📺 K+ Sport 1",
+          "link": "https://tftv0gr3uomttgr31hcjt8rzdncbafi1g1hdcgyhdrpjqci1gq3mpcfhgg3dq.100ycdn.com/live/kplus_sport1/playlist.m3u8"
         }
       ]
     }
